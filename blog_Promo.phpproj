@@ -1124,6 +1124,8 @@
     <Content Include="wp-content\plugins\akismet\_inc\form.js" />
     <Content Include="wp-content\plugins\akismet\_inc\img\logo-full-2x.png" />
     <Content Include="wp-content\themes\blogpromo\style.css" />
+    <Content Include="wp-content\themes\creationTheme.zip" />
+    <Content Include="wp-content\themes\blogpromo\resources pour intégration.zip" />
     <Content Include="wp-includes\certificates\ca-bundle.crt" />
     <Content Include="wp-includes\css\admin-bar-rtl.css" />
     <Content Include="wp-includes\css\admin-bar-rtl.min.css" />
