@@ -19,7 +19,6 @@
     <Compile Include=".vs\VSWorkspaceState.json" />
     <Compile Include="index.php" />
     <Compile Include="README.md" />
-    <Compile Include="wordpress.zip" />
     <Compile Include="wp-activate.php" />
     <Compile Include="wp-admin\about.php" />
     <Compile Include="wp-admin\admin-ajax.php" />
