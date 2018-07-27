@@ -1,12 +1,15 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Name>blog_Promo</Name>
-    <ProjectGuid>{44a4e8dd-dcff-45bb-9c07-4c2ccd3a1c07}</ProjectGuid>
+    <Name>wordpress</Name>
+    <ProjectGuid>{e7a74469-28b9-4424-85ef-29ba4794767b}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <SpecificPageValue>index.php</SpecificPageValue>
+    <StartAction>SpecificPage</StartAction>
+    <ProjectHome />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <IncludeDebugInformation>true</IncludeDebugInformation>
@@ -259,6 +262,14 @@
     <Compile Include="wp-content\themes\blogpromo\header.php" />
     <Compile Include="wp-content\themes\blogpromo\index.php" />
     <Compile Include="wp-content\themes\blogpromo\sidebar.php" />
+    <Compile Include="wp-content\themes\creationTheme\archive.php" />
+    <Compile Include="wp-content\themes\creationTheme\footer.php" />
+    <Compile Include="wp-content\themes\creationTheme\functions.php" />
+    <Compile Include="wp-content\themes\creationTheme\header.php" />
+    <Compile Include="wp-content\themes\creationTheme\index.php" />
+    <Compile Include="wp-content\themes\creationTheme\search.php" />
+    <Compile Include="wp-content\themes\creationTheme\searchform.php" />
+    <Compile Include="wp-content\themes\creationTheme\sidebar.php" />
     <Compile Include="wp-content\themes\index.php" />
     <Compile Include="wp-cron.php" />
     <Compile Include="wp-includes\admin-bar.php" />
@@ -693,6 +704,10 @@
     <Folder Include="wp-content\plugins\akismet\_inc\img\" />
     <Folder Include="wp-content\themes\" />
     <Folder Include="wp-content\themes\blogpromo\" />
+    <Folder Include="wp-content\themes\creationTheme\" />
+    <Folder Include="wp-content\themes\creationTheme\font\" />
+    <Folder Include="wp-content\themes\creationTheme\img\" />
+    <Folder Include="wp-content\themes\creationTheme\page\" />
     <Folder Include="wp-content\upgrade\" />
     <Folder Include="wp-content\uploads\" />
     <Folder Include="wp-content\uploads\2018\" />
@@ -1124,8 +1139,18 @@
     <Content Include="wp-content\plugins\akismet\_inc\form.js" />
     <Content Include="wp-content\plugins\akismet\_inc\img\logo-full-2x.png" />
     <Content Include="wp-content\themes\blogpromo\style.css" />
-    <Content Include="wp-content\themes\creationTheme.zip" />
     <Content Include="wp-content\themes\blogpromo\resources pour intégration.zip" />
+    <Content Include="wp-content\themes\creationTheme\font\segoe.ttf" />
+    <Content Include="wp-content\themes\creationTheme\img\account.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\baseline-add_comment-24px.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\baseline-insert_comment-24px.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\baseline-mode_comment-24px.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\baseline-verified_user-24px.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\honda.jpg" />
+    <Content Include="wp-content\themes\creationTheme\img\iconeli.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\logoacs.svg" />
+    <Content Include="wp-content\themes\creationTheme\img\Logo_BlogACS.svg" />
+    <Content Include="wp-content\themes\creationTheme\style.css" />
     <Content Include="wp-includes\certificates\ca-bundle.crt" />
     <Content Include="wp-includes\css\admin-bar-rtl.css" />
     <Content Include="wp-includes\css\admin-bar-rtl.min.css" />
