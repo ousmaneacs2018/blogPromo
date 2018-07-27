@@ -1,5 +1,6 @@
 <div class="d_flexcenter h100ps">
     <ul class="lh30px  ">
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
         <li id="search">
             <div class="centerligne"><?php include(TEMPLATEPATH . '/searchform.php'); ?></div>
         </li>
@@ -38,5 +39,7 @@
             </ul> 
         </li>       
         <!--<li class="clryellowcenterligne segoe"id="calendar"><h2>Calendrier</h2>   <?php get_calendar(); ?>   </li>-->
+        <?php endif; ?>
+
     </ul>
 </div>
