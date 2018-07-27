@@ -259,3 +259,27 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/wp-admin
+/wp-content/languages/plugins
+/wp-content/plugins
+/wp-content/themes/twentyfifteen
+/wp-content/themes/twentyseventeen
+/wp-content/themes/twentysixteen
+/wp-includes
+/.htaccess
+/blog_Promo.sln
+/index.php
+/xmlrpc.php
+/wp-trackback.php
+/wp-signup.php
+/wp-settings.php
+/wp-mail.php
+/wp-login.php
+/wp-load.php
+/wp-links-opml.php
+/wp-cron.php
+/wp-config.php
+/wp-config-sample.php
+/wp-comments-post.php
+/wp-blog-header.php
+/wp-activate.php
